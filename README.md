@@ -8,5 +8,5 @@ An uploader plugin for [markdown-assistant](https://github.com/knightli/markdown
 
 2. Set `weibo-uploader` as uploader in `markdown-assistant` settings.
 
-3. Set `Watermark` in package setting.
-![](http://ww1.sinaimg.cn/large/57ba9f50gw1f6mvx6h5l1j208604uq2v.jpg)
+3. Set `Watermark` in package setting.</br>
+![](http://ww4.sinaimg.cn/large/57ba9f50gw1f6mw9jocz7j2073047747.jpg)

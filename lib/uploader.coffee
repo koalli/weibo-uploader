@@ -25,13 +25,14 @@ module.exports = class Uploader
         uploadCallback = ( success, ret )->
             if success is true
                 callback(null, {ret: true, url: ret});
-                openWeiboLoginPage( null );
+                # openWeiboLoginPage( null );
             else if ret is 1
                 # 未登录
-                onLoginCallback = ()->
+                onLoginCallback = ()=>
                     utils.uploadWeiboImg( dataUrl, @watermark, uploadCallback )
 
                 openWeiboLoginPage( onLoginCallback );
+                alert("上传失败，请先登录");
                 callback( true )
             else if ret is 2
                 alert("图片上传失败...");
