@@ -1,9 +1,14 @@
 {
   "name": "weibo-uploader",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Weibo upload plugin for markdown-assistant",
-  "keywords": ["weibo", "markdown-assistant", "uploader", "markdown"],
+  "keywords": [
+    "weibo",
+    "markdown-assistant",
+    "uploader",
+    "markdown"
+  ],
   "author": {
     "name": "koalli",
     "email": "koalli@msn.com",
