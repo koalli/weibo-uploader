@@ -14,7 +14,10 @@
     "email": "koalli@msn.com",
     "url": "https://github.com/koalli"
   },
-  "repository": "https://github.com/koalli/weibo-uploader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koalli/weibo-uploader.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
