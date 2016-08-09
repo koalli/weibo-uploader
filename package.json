@@ -1,7 +1,7 @@
 {
   "name": "weibo-uploader",
   "main": "./lib/main",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Weibo upload plugin for markdown-assistant",
   "keywords": [
     "weibo",
